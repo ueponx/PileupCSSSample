@@ -1,3 +1,6 @@
-p {font-size: 32px; color:#ff0000; position:absolute; top:200px; left:200px; z-index: 3;}
-img.content1{position:absolute; top:100px; left:100px; border: 2px #ff0000 solid; z-index: 2; }
-img.content2{position:absolute; top:200px; left:200px; border: 2px #ff0000 solid; z-index: 1; }
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
