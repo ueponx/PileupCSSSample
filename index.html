@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="sample.css" type="text/css">
-</head>
-
-<body>
-    <div class="relative">
-        <img src="./base.jpg" alt="" />
-        <img src="./logo.jpg" alt="" class="absolute" />
-    </div>
-</body>
-
-</html>
+.relative {
+    position: relative;
+    width: 600px;
+}
+.absolute {
+    position: absolute;
+    bottom: 80px;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    max-width: 600px;
+    padding: 1em 0;
+}
+.absolute p {
+    margin: 0;
+    padding: 0 0.8em;
+    font-size: 150%;
+    text-align: center;
+}
