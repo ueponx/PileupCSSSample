@@ -1,19 +1,14 @@
-.relative {
-    position: relative;
-    width: 600px;
-}
-.absolute {
-    position: absolute;
-    bottom: 80px;
-    color: #fff;
-    background: rgba(0,0,0,.6);
+.example {/*親div*/
+    position: relative;/*相対配置*/
+    }
+  
+  .example p {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は白に*/
+    top: 0;
+    left: 0;
+    }
+  
+  .example img {
     width: 100%;
-    max-width: 600px;
-    padding: 1em 0;
-}
-.absolute p {
-    margin: 0;
-    padding: 0 0.8em;
-    font-size: 150%;
-    text-align: center;
-}
+    }
